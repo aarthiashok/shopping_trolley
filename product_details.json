@@ -1,20 +1,42 @@
 {
   "product": [
     {
+      "id": 1,
       "name": "Milk",
-      "price": 130
+      "price": 130,
+      "discount": {
+        "type": "None"
+      }
     },
     {
-      "name": "Apples",
-      "price": 100
-    },
-    {
+      "id": 2,
       "name": "Soup",
-      "price": 65
+      "price": 65,
+      "discount": {
+        "type": "None"
+      }
     },
     {
+      "id": 3,
       "name": "Bread",
-      "price": 80
+      "price": 80,
+      "discount": {
+        "type": "COMBO_DISCOUNT",
+        "combo-product-count": 2,
+        "combo-product-id": 2,
+        "value": 50,
+        "description": "Buy 2 tins of soup and get a loaf of bread for half price"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Apples",
+      "price": 100,
+      "discount": {
+        "type": "PERCENTAGE_DISCOUNT",
+        "value":10,
+        "description": "Apples 10% off"
+      }
     }
   ]
 }

@@ -1,4 +1,5 @@
 package com.adthena.assignment
+import model.product
 import java.io.FileNotFoundException
 import java.io.IOException
 
@@ -8,7 +9,10 @@ class product_processor {
 
     val productConfig = ujson.read(os.read(os.pwd / "product_details.json"))
     productConfig("product").arr.foreach {
-      case (product) => println(s"$product")
+      case (productJson) => {
+        val prodObj = new product(productJson)
+        println(prodObj.name)
+      }
     }
   }
   catch {
