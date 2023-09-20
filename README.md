@@ -36,8 +36,7 @@ So, To run the app , please follow the below steps)
 3. Right click the src/main/scala/com.adthena.assignment/main file
 4. And select "Run"
 
-
-Output:
+------------------------------------------------
 
 Provide count for the item Milk
 2
@@ -50,7 +49,9 @@ Provide count for the item Apple
 Sub Total £ 3.9
 (No offers available)
 Total Price After discount £ 3.9
-------------------------------------------------
+
+--------------------------------------------------
+
 Provide count for the item Milk
 1
 Provide count for the item Soup
@@ -63,8 +64,3 @@ Buy 2 tins of soup and get a loaf of bread for half price : 80.0 p
 Apples 10% off : 20.0 p
 Sub Total £ 8.3
 Total Price After discount £ 7.3
-
-Future Enhancements:
-
-
-
