@@ -39,11 +39,17 @@ So, To run the app , please follow the below steps)
 ------------------------------------------------
 
 Provide count for the item Milk
+
 2
+
 Provide count for the item Soup
+
 2
+
 Provide count for the item Bread
+
 0
+
 Provide count for the item Apple
 0
 Sub Total £ 3.9
