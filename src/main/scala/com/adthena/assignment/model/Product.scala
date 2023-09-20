@@ -1,4 +1,4 @@
-package com.adthena.exercise.model
+package com.adthena.assignment.model
 
 import scala.util.Try
 

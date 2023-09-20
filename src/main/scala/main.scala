@@ -1,14 +1,9 @@
-import com.adthena.assignment.product_processor
+import com.adthena.assignment.ShopBasketProcessor
 
-object basket
-{
-  // Main Method
-  def main(args: Array[String]): Unit ={
-  {
-    // prints Hello World
-    println("Hello World!")
-    var product = new product_processor()
-
+object Main {
+  def main(args: Array[String]): Unit = {
+    var basket = new ShopBasketProcessor()
+    basket.getInputFromUser()
+    basket.calculateTotal()
   }
-}
 }
