@@ -1,8 +1,11 @@
-name := "shopping_trolley"
+ThisBuild / version := "0.1.0-SNAPSHOT"
 
-version := "0.1"
+ThisBuild / scalaVersion := "3.2.0"
 
-scalaVersion := "3.2.0"
+lazy val root = (project in file("."))
+  .settings(
+    name := "shopping_trolley"
+  )
 
 libraryDependencies += "com.lihaoyi" %% "upickle" % "3.0.0"
 libraryDependencies += "com.lihaoyi" %% "os-lib" % "0.9.1"
